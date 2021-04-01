@@ -1,6 +1,6 @@
-title: 
+title: Hilmi
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Muhammad Hilmi Asyrofi
+author: None
 avatar: /hilmi.png
 email: mhilmiasyrofi@gmail.com
 location: Singapore
@@ -10,7 +10,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-
+  
 paginate: 10
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
@@ -35,7 +35,7 @@ twitter:
   card: summary
 logo: hilmi.png
 social:
-  name: Muhammad Hilmi Asyrofi
+  name: M Hilmi Asyrofi
   links:
     - https://twitter.com/mhilmiasyrofi
     - https://www.facebook.com/mhilmiasyrofi

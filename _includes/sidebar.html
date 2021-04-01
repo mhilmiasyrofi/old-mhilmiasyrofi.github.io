@@ -14,19 +14,20 @@
     {% if site.author -%}
       <li>
         <i class="sidebar-icon fas fa-at"></i>
-        <span class="contact-info p-name">{{ site.author | escape }}</span>
+        <!-- <span class="contact-info p-name">{{ site.author }}</span> -->
+        <span class="contact-info p-name" style="font-size: 0.8em;" > Muhammad <b>Hilmi</b> Asyrofi</span>
       </li>
     {%- endif %}
     {% if site.email -%}
       <li>
         <i class="sidebar-icon fas fa-envelope"></i>
-        <a class="contact-info u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a class="contact-info u-email" style="font-size: 0.8em;" href="mailto:{{ site.email }}">{{ site.email }}</a>
       </li>
     {%- endif %}
     {% if site.location -%}
       <li>
-        <i class="sidebar-icon fas fa-map-marker"></i>
-        <a class="contact-info u-location" href="https://www.google.com/maps/search/{{ site.location }}">{{ site.location }}</a>
+        <i class="sidebar-icon fas fa-map-marker" style="padding-right: 0.2em;"></i>
+        <a class="contact-info u-location" style="font-size: 0.8em;" href="https://www.google.com/maps/search/{{ site.location }}">{{ site.location }}</a>
       </li>
     {%- endif %}
   </ul>

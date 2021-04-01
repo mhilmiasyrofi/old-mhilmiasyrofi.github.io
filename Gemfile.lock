@@ -19,6 +19,7 @@ GEM
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    emoji_for_jekyll (0.2.3)
     eventmachine (1.2.7)
     ffi (1.15.0)
     forwardable-extended (2.6.0)
@@ -79,6 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
+  emoji_for_jekyll
   jekyll-theme-hamilton!
   rake (~> 12.0)
 
